@@ -1,5 +1,71 @@
 * {
     margin: 0px;
-    padding: 0px
-    ;
+    padding: 0px;
+    border-style: border-box;
 }
+
+#top-header {
+    text-align: center;
+    color: grey;
+    font-size: 0.7rem;
+    padding: 20px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+    padding: 0px 50px
+ ;
+}
+
+.menu-list {
+    /* list-style: none; */
+    display: inline-block;
+}
+
+.menu-list a {
+    text-decoration: none;
+    padding: 20px 10px;
+    margin-bottom: 2rem;
+    color: grey;
+    font-weight: 900
+}
+
+.menu-list a:hover {
+    color: blue;
+}
+
+#contact {
+    background-color: greenyellow;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+#c {
+    background-color: greenyellow;
+    color: 
+    white;
+}
+
+#contact a:hover {
+    color: azure;
+}
+
+#contact a {
+    color: red;
+}
+
+/* #power-logo {
+font-size: 50px;
+;
+}
+
+#box {
+    text-align: center;
+    display: grid;
+}
+
+#box p {
+    display: grid;
+} */
