@@ -15,8 +15,7 @@
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 1rem;
-    padding: 0px 50px
- ;
+    padding: 0px 50px;
 }
 
 .menu-list {
@@ -56,16 +55,183 @@
     color: red;
 }
 
-/* #power-logo {
-font-size: 50px;
-;
+.aboutbox {
+    display: flex;
+    margin: 20px 0px;
+    /* border: 1px solid black; */
+    padding: 10px;
 }
 
-#box {
+.aboutcard {
+    /* border: 1px solid black; */
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+    height: 300px;
+}
+
+.about-logo {
+    font-size: 50px;
+    padding-left: 120px;
+    margin: 20px;
+}
+
+.click-bnt {
+    padding: 10px;
+}
+
+.card-bnt {
+    float: right;
+    margin: 20px;
+}
+
+   /* product section */
+#product {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#first-prod {
+    margin-right: 10px;
+}
+
+.product-area {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.pcard-bnt {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-image {
+    /* background-size: cover; */
+    /* width: 100%; */
+    display: flex !important;
+    /* justify-content:; */
+    /* size: 50%; */
+    /* align-items: center; */
+    margin-bottom: 20px;
+}
+
+/* service section */
+#service {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#service-card {
+    margin: 2px;
+    justify-content: space-between;
+    /* width: 100%;
+    margin-right: 10px; */
+}
+
+.service-card-text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 22px;
+    margin-left: 10px;
+    align-items: flex-start;
+}
+
+.service-text {
+    margin: 3px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+            /* Contact page section */
+#contactpage {
+    display: flex;
+    flex-direction: row;
+}
+
+#info {
+    width: 50%;
+    margin-left: 10px;
+
+}
+
+
+#contactform {
+    width: 60%;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* margin-right: 50px; */
+}
+
+#contactform input {
+    /* display: flex; */
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#form-input{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#name {
+    margin-right: 5px;
+}
+
+.form-row {
+    display: flex;
+    /* flex-direction: column; */
+    margin-bottom: 15px;
+}
+
+.form-row input, 
+.form-row textarea {
+    width: 100%; /* Make input fields take full width */
+    padding: 10px; /* Add padding inside the inputs */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Optional: Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 14px;
+}
+
+.form-row textarea {
+    height: 100px; /* Set a fixed height for textarea */
+    resize: vertical;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#summit-bnt {
+    float: right;
+}
+
+
+            /* footer part */
+#Copy-right {
     text-align: center;
-    display: grid;
 }
 
-#box p {
-    display: grid;
-} */
+#go-up-bnt {
+    text-align: end;
+}
